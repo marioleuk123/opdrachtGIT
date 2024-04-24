@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>testjava</title>
+</head>
+
+<body>
+
+    <script>
+
+        let naamtijdschrift = prompt("naam van het tijdschrift?", "type hier");
+        let kostprijs = prompt("De kostrpijs van de tijdschrift", "type hier");
+        let Aantal_stuks = prompt("Aantal stuks", "type hier");
+        let totaal = kostprijs * Aantal_stuks;
+        document.write(`<p>Het tijdschrift is: ${naamtijdschrift}, het type hiervan is: ${typeof naamtijdschrift}.<p>`);
+        document.write(`<p>De kostrpijs van 1 exemplaar is ${kostprijs}, het type hiervan is: ${typeof kostprijs}.<p>`);
+        document.write(`<p>Het aantal exemplaren dat je wil kopen is: ${Aantal_stuks}: het type hiervan is: ${typeof Aantal_stuks}.<p>`);
+        document.write(`<p>De totale prijs is dan ${totaal}.`);
+    </script>
+</body>
+
+</html>
